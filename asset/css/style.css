@@ -1,0 +1,285 @@
+#leftNav .header {
+	height: 50px;
+}
+
+#leftNav .panel-group .panel + .panel{
+	margin-top: 0;
+}
+
+#leftNav .panel-group .panel {
+	border-radius: 0;
+}
+
+#leftNav .panel-default > .panel-heading {
+	background: #fff;
+}
+
+#leftNav .panel-default > .panel-heading a>i {
+	float: right;
+}
+
+#leftNav ul.menu {
+	background: #394C5D;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 0 0 6px 0 #000000;
+}
+
+#leftNav .menu li {
+	width: 25%;
+	text-align: center;
+}
+
+#leftNav .list-group-item {
+	border-radius: 0;
+}
+
+#leftNav .menu.navbar-brand, .navbar-nav.menu>li>a {
+	color: #ffffff;
+	text-shadow: none;
+	padding: 10px 5px;
+}
+
+#leftNav .list-group-item img {
+	border-radius: 4px;
+}
+
+#leftNav .menu.navbar-brand, .menu.navbar-nav>li>a:hover, #chatLayout .menu.navbar-brand, .menu.navbar-nav>li.active>a {
+	background: #2CC0B3;
+}
+
+#leftNav {
+	padding: 0;
+	box-shadow: 3px 0px 14px 0px #AAA;
+	z-index: 9;
+}
+
+#leftNavContent {
+	min-height: 600px;
+	background: #ffffff;
+}
+
+#leftNavContent .panel-group {
+	margin-bottom: 0;
+}
+
+#leftNavContent a.list-group-item:hover, #leftNavContent a.list-group-item:focus {
+	background-color: #2CC0B3;
+}
+#leftNavContent .list-group {
+	margin-bottom: 0;
+}
+
+#rightNav .panel.panel-default {
+	margin-top: 30px;
+}
+
+#rightNav p{
+	display: inline-block;
+}
+#nav-tabs {
+	height: 50px;
+}
+
+.menu-icon i {
+	color: #FFF;
+	line-height: 72px;
+}
+.menu-icon {
+	background: none repeat scroll 0 0 #267eff;
+	height: 72px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 40px;
+}
+.menu-imageleft {
+	overflow: hidden;
+	position: relative;
+}
+
+.chat-tap {
+	display:inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:20%;
+	height:100%;
+	line-height: 100%;
+}
+
+.c-search > .form-control {
+	border-radius: 0px;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	font-size: 1.3em;
+	padding: 12px 12px;
+	height: 44px;
+	outline: none !important;
+}
+.c-search > .form-control:focus {
+	outline:0px !important;
+	-webkit-appearance:none;
+	box-shadow: none;
+}
+.c-search > .input-group-btn .btn {
+	border-radius: 0px;
+	border-width: 0px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	height: 44px;
+}
+
+
+.c-list {
+	padding: 0px;
+	min-height: 44px;
+}
+.title {
+	display: inline-block;
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+ul.c-controls {
+	list-style: none;
+	margin: 0px;
+	min-height: 44px;
+}
+
+ul.c-controls li {
+	margin-top: 8px;
+	float: left;
+}
+
+ul.c-controls li a {
+	font-size: 1.7em;
+	padding: 11px 10px 6px;
+}
+ul.c-controls li a i {
+	min-width: 24px;
+	text-align: center;
+}
+
+ul.c-controls li a:hover {
+	background-color: rgba(51, 51, 51, 0.2);
+}
+
+.c-toggle {
+	font-size: 1.7em;
+}
+
+.name {
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+.c-info {
+	padding: 5px 10px;
+	font-size: 1.25em;
+}
+
+.iconToggle {
+	background: #000;
+	position: absolute;
+	top: 12px;
+	cursor: pointer;
+	padding: 5px 16px 5px 0px;
+	border-radius: 0 20px 20px 0;
+	color: white;
+	z-index: 99999;
+	width: 15px;
+	right: -15px;
+}
+
+.iconToggle i {
+	padding-left: 1px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.contact-search {
+	padding: 26px;
+	background: #F3F3F5;
+	position: relative;
+	border-radius: 5px;
+	margin-top: 30%;
+}
+
+.contact-search .input-group {
+	margin-bottom: 10px;
+}
+
+.contact-list-footer a {
+	width: 100%;
+}
+
+/* TODO: Remove This Style*/
+.signout {
+	bottom: 15px;
+	color: #8b8806;
+	position: absolute;
+	right: 35%;
+}
+a img.myright{
+    width: 30px;
+    margin-right:50px;
+}
+a img.myleft{
+    width: 30px;
+    margin-left: 50px;
+}
+a img.middle{
+    width: 30px;
+}
+
+.chat-footer {
+	background: rgba(230, 230, 230, 0.5);
+	padding: 0 0 10px;
+	border-top: 2px solid #CCC;
+}
+a img.my{
+	width: 50px;
+	margin: 1px;
+}
+a img.myimg{
+	width: 20px;
+	margin: 10px;
+}
+
+.profile-title, .profile-setting{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	display: block;
+	border-bottom: 2px solid #EEE;
+}
+
+.profile-title a.edit, .profile-setting a.edit {
+	float: right;
+	line-height: 50px;
+	margin-right: 10px;
+}
+
+.profile-title img, .profile-setting img {
+	width: 30px;
+	margin: 0 5px;
+}
+.profile-list {
+	height: 40px;
+	border-bottom: 2px solid #EEE;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+.profile-list span {
+	float: right;
+}
+
+.loading {
+	color: #bbb;
+	font-size: 50px;
+	text-align: center;
+}
