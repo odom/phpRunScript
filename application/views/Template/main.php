@@ -13,19 +13,7 @@
 </head>
 <body>
 <div class="container">
-	<div id="chatLayout">
-		<div class="row">
-			<div class="col-xs-3" id="leftNav">
-				<div class="header">
-				</div>
-				<div id="leftNavContent">
-				</div>
-			</div>
-			<div class="col-xs-9" id="rightNav">
-				<?php $this->load->view($template)?>
-			</div>
-		</div>
-	</div>
+	<?php $this->load->view($template); ?>
 </div>
 
 <script src="asset/js/jquery.min.js"></script>
