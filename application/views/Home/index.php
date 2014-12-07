@@ -6,7 +6,7 @@
 				var_dump($message);
 			}
 		?>
-		<form class="form-signin" action="home/register" method="post">
+		<form class="form-signin" action="/home/register" method="post">
 			<h1 class="form-signin-heading text-muted">Register Whatsapp</h1>
 			<br/>
 			<p class="text text-info">ex: 85510121212</p>

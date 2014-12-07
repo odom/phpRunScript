@@ -24,7 +24,7 @@ class Home extends CI_Controller {
 		if ($this->input->post()) {
 			$verifyNumber = $this->input->post('verifyNumber');
 			$path ='upload/register/'.$this->input->post('phone');
-			$output = shell_exec("./application/controllers/whatsapp/yowsup-cli  --register $verifyNumber --config $path");
+			$output = shell_exec("./application/controllers/whatsapp/yowsup-cli registration  --requestcode sms --register $verifyNumber ");
 			$saveTo = 'upload/users/'.$this->input->post('phone');
 			$myfile = fopen($saveTo, "w") or die("Unable to open file!");
 			fwrite($myfile, $output);
