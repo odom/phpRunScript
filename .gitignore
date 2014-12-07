@@ -1,0 +1,5 @@
+.idea
+upload/*
+upload/register/NOTHING
+upload/user/NOTHING
+application/config/config_local.php
